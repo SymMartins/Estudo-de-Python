@@ -1,12 +1,12 @@
-'''refaça o desafio 051, lendo o primeiro termo e a razão de uma PA, mostrando as 10 primeiros termos
+''' Refaça o desafio 051, lendo o primeiro termo e a razão de uma PA, mostrando as 10 primeiros termos
 da progressão usando a estrutura while'''
 
 print('-=-' * 10)
-print('PROGRESSÃO ARITIMÉTICA')
+print('PROGRESSÃO ARITIMÉTICA - V2')
 print('-=-' * 10)
 
 primeiro = int(input('Digite o primeiro termo: '))
-razao = int(input('digite a razão: '))
+razao = int(input('digite a razão da PA: '))
 termo = primeiro
 cont = 1
 while cont <= 10:
