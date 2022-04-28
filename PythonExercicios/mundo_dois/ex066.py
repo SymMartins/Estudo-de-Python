@@ -9,4 +9,4 @@ while True:
         break
     c += 1
     s += n
-print(f'foram digitados {c} e a soma entre eles foi {s}')
+print(f'foram digitados {c} e a soma entre eles foi {s}!')
