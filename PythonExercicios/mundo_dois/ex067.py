@@ -2,7 +2,7 @@
 O programa será interrompido quando o número solicitado for negativo"""
 
 while True:
-    print('-'*32)
+    print('-' * 32)
     numero = int(input('Qual taboada você quer saber? '))
     print('-' * 32)
     if numero <= 0:
