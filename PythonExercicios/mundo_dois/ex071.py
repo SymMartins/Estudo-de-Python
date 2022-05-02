@@ -13,7 +13,6 @@ ced = 50
 totalced = 0
 
 while True:
-
     if total >= ced:
         total -= ced
         totalced += 1
