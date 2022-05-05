@@ -21,7 +21,7 @@ for cont in range(0, len(lanche)):
     print(f'Eu vou comer {lanche[cont]}')
 print('=' * 130)
 print('Quarto (FOR)')
-for pos, comida in enumerate(lanche):
+for pos, comida in enumerate(lanche): #Dá a posição de cada item na tupla!
     print(f'Eu vou comer {comida} na posição {pos}')
 
 print('=' * 130)
