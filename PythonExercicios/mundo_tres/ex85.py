@@ -35,6 +35,8 @@ for num in range(1,8):
         numeros[0].append(valor)
     else:
         numeros[1].append(valor)
+numeros[0].sort()
+numeros[1].sort()
 print('-='*30)
 print(f'Os números pares são: {numeros[0]}')
 print(f'Os números impares são: {numeros[1]}')
