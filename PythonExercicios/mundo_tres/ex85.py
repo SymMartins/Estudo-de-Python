@@ -29,9 +29,9 @@ print()
 
 numeros = [[], []]
 valor = 0
-for num in range(1,8):
+for num in range(1, 8):
     valor = int(input(f'Digite o {num}.º valor: '))
-    if valor % 2  == 0:
+    if valor % 2 == 0:
         numeros[0].append(valor)
     else:
         numeros[1].append(valor)
