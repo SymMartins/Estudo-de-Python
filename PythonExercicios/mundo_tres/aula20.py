@@ -17,6 +17,7 @@ titulo('aprenda python')
 titulo('oi')
 lin()
 
+
 # Parte prática da aula:
 def soma(a, b):
     s = a + b
