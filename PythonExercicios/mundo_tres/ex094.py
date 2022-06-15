@@ -14,7 +14,6 @@ soma = media = 0
 while True:
     pessoa.clear()  # Apaga os dados do dicionário pessoas
     pessoa['nome'] = str(input('Nome: ')).strip().title()
-
     # Dar entrada no sexo da pessoa e verifica se o usuário digitou apenas M ou F
     while True:
         pessoa['sexo'] = str(input('Sexo: [M/F] ')).strip().upper()[0]
@@ -24,7 +23,6 @@ while True:
     pessoa['idade'] = int(input('Idade: '))  # Pede a idade da pessoa cadastrada
     soma += pessoa['idade']  # Soma a idade das pessoas cadastradas
     galera.append(pessoa.copy())
-
     # Pergunta se o usuário deseja continuar cadastrando
     while True:
         continuar = str(input('Deseja continuar cadastrando? [S/N] ')).strip().upper()[0]
