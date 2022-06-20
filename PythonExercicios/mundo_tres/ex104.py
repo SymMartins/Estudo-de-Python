@@ -20,5 +20,6 @@ def leiaInt(msg):
 
 
 # programa principal:
+
 n = leiaInt('Digite um nº: ')
 print(f'Você acabou de digitar o número {n}.')
