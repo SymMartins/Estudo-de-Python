@@ -15,6 +15,7 @@ def sorteia(lista):
     print('PRONTO')
 
 
+
 def somaPar(lista):
     soma = 0
     for valor in lista:
