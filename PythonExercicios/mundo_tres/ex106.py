@@ -15,7 +15,7 @@ c = ('\033[m',        # 0 - sem cor
 
 def ajuda(com):
     título(f'Acessando o manual do comando \'{com}\'', 4)
-    print(c[5], end='')
+    print(c[0], end='')
     help(com)
     print(c[0], end='')
     sleep(2)
