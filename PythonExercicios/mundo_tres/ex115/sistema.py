@@ -1,4 +1,3 @@
-from PythonExercicios.mundo_tres.ex115.libi.interface import *
 from PythonExercicios.mundo_tres.ex115.libi.arquivo import *
 from time import sleep
 
@@ -13,7 +12,11 @@ while True:
         # Opção de listar um conteúdo de um arquivo!
         lerArquivo(arq)
     elif resposta == 2:
-        cabecalho('Opção 2')
+        # Opção de cadastrar uma nova pessoa:
+        cabecalho('NOVO CADASTRO')
+        nome = str(input('Nome: ')).title().strip()
+        idade = leiaInt('Idade: ')
+        cadastrar(arq, nome, idade)
     elif resposta == 3:
         cabecalho('Saindo do programa... Até Logo!')
         break
